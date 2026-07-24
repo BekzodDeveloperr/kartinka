@@ -58,12 +58,67 @@ async def cb_list_categories(callback: CallbackQuery):
     from aiogram.utils.keyboard import InlineKeyboardBuilder
     b = InlineKeyboardBuilder()
     for c in rows:
-        b.button(text=f"🗑 {c.name_uz}", callback_data=f"catdel:{c.id}")
+        b.button(text=f"🏷 {c.name_uz}", callback_data=f"catview:{c.id}")
     b.button(text="➕ Yangi kategoriya qo'shish", callback_data="catadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
-    text = "🏷 Kategoriyalar:\n\n" + "\n".join(f"• {c.name_uz} (id={c.id})" for c in rows)
-    await callback.message.edit_text(text or "(bo'sh)", reply_markup=b.as_markup())
+    text = "🏷 <b>Kategoriyalar ro'yxati:</b>\n\n" + ("\n".join(f"• {c.name_uz} (ID: #{c.id})" for c in rows) if rows else "*(Kategoriyalar mavjud emas)*")
+    await callback.message.edit_text(text, reply_markup=b.as_markup())
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("catview:"))
+async def cb_cat_view(callback: CallbackQuery):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, cid_str = callback.data.split(":")
+        cid = int(cid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        c = await session.get(Category, cid)
+    if not c:
+        await callback.answer("Kategoriya topilmadi.", show_alert=True)
+        return
+    from aiogram.utils.keyboard import InlineKeyboardBuilder
+    b = InlineKeyboardBuilder()
+    b.button(text="✏️ Nomini o'zgartirish", callback_data=f"catedit:{c.id}")
+    b.button(text="🗑 Kategoriyani o'chirish", callback_data=f"catdel:{c.id}")
+    b.button(text="⬅️ Kategoriyalar", callback_data="cat_admin:categories")
+    b.adjust(1)
+    await callback.message.edit_text(
+        f"🏷 <b>Kategoriya:</b> {c.name_uz} (ID: #{c.id})\n\n"
+        f"Quyidagi harakatlardan birini tanlang:",
+        reply_markup=b.as_markup(),
+    )
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("catedit:"))
+async def cb_cat_edit_prompt(callback: CallbackQuery, state: FSMContext):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, cid_str = callback.data.split(":")
+        cid = int(cid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        c = await session.get(Category, cid)
+    if not c:
+        await callback.answer("Kategoriya topilmadi.", show_alert=True)
+        return
+    await state.set_state(AdminFlow.waiting_product_category)
+    await state.update_data(admin_action="edit_category", edit_category_id=cid)
+    await callback.message.edit_text(
+        f"✏️ <b>«{c.name_uz}»</b> kategoriyasi uchun yangi nom kiriting:",
+        reply_markup=admin_back_kb("cat_admin:categories"),
+    )
     await callback.answer()
 
 
@@ -75,8 +130,7 @@ async def cb_cat_add(callback: CallbackQuery, state: FSMContext):
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_category")
     await callback.message.edit_text(
-        "✏️ Yangi kategoriya nomini kiriting (uz):\n"
-        "(Keyin ru/en tarjimalarini so'raymiz)",
+        "✏️ Yangi kategoriya nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:categories"),
     )
     await callback.answer()
@@ -134,12 +188,67 @@ async def cb_list_materials(callback: CallbackQuery):
     from aiogram.utils.keyboard import InlineKeyboardBuilder
     b = InlineKeyboardBuilder()
     for m in rows:
-        b.button(text=f"🗑 {m.name_uz}", callback_data=f"matdel:{m.id}")
+        b.button(text=f"🧵 {m.name_uz}", callback_data=f"matview:{m.id}")
     b.button(text="➕ Yangi xomashyo", callback_data="matadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
-    text = "🧵 Xomashyolar:\n\n" + "\n".join(f"• {m.name_uz} (id={m.id})" for m in rows)
-    await callback.message.edit_text(text or "(bo'sh)", reply_markup=b.as_markup())
+    text = "🧵 <b>Xomashyolar (Materiallar):</b>\n\n" + ("\n".join(f"• {m.name_uz} (ID: #{m.id})" for m in rows) if rows else "*(Materiallar mavjud emas)*")
+    await callback.message.edit_text(text, reply_markup=b.as_markup())
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("matview:"))
+async def cb_mat_view(callback: CallbackQuery):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, mid_str = callback.data.split(":")
+        mid = int(mid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        m = await session.get(Material, mid)
+    if not m:
+        await callback.answer("Material topilmadi.", show_alert=True)
+        return
+    from aiogram.utils.keyboard import InlineKeyboardBuilder
+    b = InlineKeyboardBuilder()
+    b.button(text="✏️ Nomini o'zgartirish", callback_data=f"matedit:{m.id}")
+    b.button(text="🗑 Materialni o'chirish", callback_data=f"matdel:{m.id}")
+    b.button(text="⬅️ Materiallar", callback_data="cat_admin:materials")
+    b.adjust(1)
+    await callback.message.edit_text(
+        f"🧵 <b>Material:</b> {m.name_uz} (ID: #{m.id})\n\n"
+        f"Quyidagi harakatlardan birini tanlang:",
+        reply_markup=b.as_markup(),
+    )
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("matedit:"))
+async def cb_mat_edit_prompt(callback: CallbackQuery, state: FSMContext):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, mid_str = callback.data.split(":")
+        mid = int(mid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        m = await session.get(Material, mid)
+    if not m:
+        await callback.answer("Material topilmadi.", show_alert=True)
+        return
+    await state.set_state(AdminFlow.waiting_product_category)
+    await state.update_data(admin_action="edit_material", edit_material_id=mid)
+    await callback.message.edit_text(
+        f"✏️ <b>«{m.name_uz}»</b> materialining yangi nomini kiriting:",
+        reply_markup=admin_back_kb("cat_admin:materials"),
+    )
     await callback.answer()
 
 
@@ -151,7 +260,7 @@ async def cb_mat_add(callback: CallbackQuery, state: FSMContext):
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_material")
     await callback.message.edit_text(
-        "✏️ Yangi xomashyo nomini kiriting (uz):",
+        "✏️ Yangi xomashyo nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:materials"),
     )
     await callback.answer()
@@ -208,12 +317,67 @@ async def cb_list_sizes(callback: CallbackQuery):
     from aiogram.utils.keyboard import InlineKeyboardBuilder
     b = InlineKeyboardBuilder()
     for s in rows:
-        b.button(text=f"🗑 {s.name_uz}", callback_data=f"sizedel:{s.id}")
+        b.button(text=f"📐 {s.name_uz}", callback_data=f"sizeview:{s.id}")
     b.button(text="➕ Yangi razmer", callback_data="sizeadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
-    b.adjust(2, 1, 1)
-    text = "📐 Razmerlar:\n\n" + "\n".join(f"• {s.name_uz} (id={s.id})" for s in rows)
-    await callback.message.edit_text(text or "(bo'sh)", reply_markup=b.as_markup())
+    b.adjust(1)
+    text = "📐 <b>O'lchamlar (Razmerlar):</b>\n\n" + ("\n".join(f"• {s.name_uz} (ID: #{s.id})" for s in rows) if rows else "*(Razmerlar mavjud emas)*")
+    await callback.message.edit_text(text, reply_markup=b.as_markup())
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("sizeview:"))
+async def cb_size_view(callback: CallbackQuery):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, sid_str = callback.data.split(":")
+        sid = int(sid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        s = await session.get(Size, sid)
+    if not s:
+        await callback.answer("Razmer topilmadi.", show_alert=True)
+        return
+    from aiogram.utils.keyboard import InlineKeyboardBuilder
+    b = InlineKeyboardBuilder()
+    b.button(text="✏️ Nomini o'zgartirish", callback_data=f"sizedit:{s.id}")
+    b.button(text="🗑 Razmerni o'chirish", callback_data=f"sizedel:{s.id}")
+    b.button(text="⬅️ Razmerlar", callback_data="cat_admin:sizes")
+    b.adjust(1)
+    await callback.message.edit_text(
+        f"📐 <b>O'lcham:</b> {s.name_uz} (ID: #{s.id})\n\n"
+        f"Quyidagi harakatlardan birini tanlang:",
+        reply_markup=b.as_markup(),
+    )
+    await callback.answer()
+
+
+@router.callback_query(F.data.startswith("sizedit:"))
+async def cb_size_edit_prompt(callback: CallbackQuery, state: FSMContext):
+    if not await _check_perm(callback.from_user.id):
+        await callback.answer("Ruxsat yo'q.", show_alert=True)
+        return
+    try:
+        _, sid_str = callback.data.split(":")
+        sid = int(sid_str)
+    except (ValueError, IndexError):
+        await callback.answer()
+        return
+    async with async_session() as session:
+        s = await session.get(Size, sid)
+    if not s:
+        await callback.answer("Razmer topilmadi.", show_alert=True)
+        return
+    await state.set_state(AdminFlow.waiting_product_category)
+    await state.update_data(admin_action="edit_size", edit_size_id=sid)
+    await callback.message.edit_text(
+        f"✏️ <b>«{s.name_uz}»</b> razmerining yangi nomini kiriting:",
+        reply_markup=admin_back_kb("cat_admin:sizes"),
+    )
     await callback.answer()
 
 
@@ -698,7 +862,7 @@ async def cb_price_set(message: Message, state: FSMContext):
 
 @router.message(AdminFlow.waiting_product_category)
 async def admin_generic_name_input(message: Message, state: FSMContext):
-    """Routes to category / material / size creation."""
+    """Routes to category / material / size creation & editing."""
     text = (message.text or "").strip()
     if not text:
         await message.answer("Bo'sh bo'lmasin.")
@@ -709,15 +873,42 @@ async def admin_generic_name_input(message: Message, state: FSMContext):
         if action == "add_category":
             session.add(Category(name_uz=text))
             await session.commit()
-            await message.answer("✅ Kategoriya qo'shildi.", reply_markup=admin_back_kb("cat_admin:categories"))
+            await message.answer("✅ Yangi kategoriya muvaffaqiyatli qo'shildi.", reply_markup=admin_back_kb("cat_admin:categories"))
+        elif action == "edit_category":
+            cid = data.get("edit_category_id")
+            c = await session.get(Category, cid)
+            if c:
+                c.name_uz = text
+                await session.commit()
+                await message.answer(f"✅ Kategoriya nomi «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:categories"))
+            else:
+                await message.answer("Kategoriya topilmadi.", reply_markup=admin_back_kb("cat_admin:categories"))
         elif action == "add_material":
             session.add(Material(name_uz=text))
             await session.commit()
-            await message.answer("✅ Xomashyo qo'shildi.", reply_markup=admin_back_kb("cat_admin:materials"))
+            await message.answer("✅ Yangi xomashyo qo'shildi.", reply_markup=admin_back_kb("cat_admin:materials"))
+        elif action == "edit_material":
+            mid = data.get("edit_material_id")
+            m = await session.get(Material, mid)
+            if m:
+                m.name_uz = text
+                await session.commit()
+                await message.answer(f"✅ Xomashyo nomi «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:materials"))
+            else:
+                await message.answer("Xomashyo topilmadi.", reply_markup=admin_back_kb("cat_admin:materials"))
         elif action == "add_size":
             session.add(Size(name_uz=text))
             await session.commit()
-            await message.answer("✅ Razmer qo'shildi.", reply_markup=admin_back_kb("cat_admin:sizes"))
+            await message.answer("✅ Yangi razmer qo'shildi.", reply_markup=admin_back_kb("cat_admin:sizes"))
+        elif action == "edit_size":
+            sid = data.get("edit_size_id")
+            sz = await session.get(Size, sid)
+            if sz:
+                sz.name_uz = text
+                await session.commit()
+                await message.answer(f"✅ Razmer «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:sizes"))
+            else:
+                await message.answer("Razmer topilmadi.", reply_markup=admin_back_kb("cat_admin:sizes"))
         else:
             await message.answer("Noma'lum amal. /admin bosing.")
     await state.clear()

@@ -29,9 +29,9 @@ _STRINGS: dict[str, dict[str, str]] = {
         "en": "🌐 <b>Select language / Muloqot tilini tanlang / Выберите язык:</b>",
     },
     "welcome_new": {
-        "uz": "👋 <b>Assalomu alaykum!</b>\n\nKartinalar buyurtma qilish botiga xush kelibsiz! ✨\nBuyurtmani rasmiylashtirish uchun ro'yxatdan o'ting.\n\n✏️ <b>Ism va familiyangizni kiriting:</b>",
-        "ru": "👋 <b>Здравствуйте!</b>\n\nДобро пожаловать в бот заказа картин! ✨\nДля оформления заказа просим пройти регистрацию.\n\n✏️ <b>Введите ваше имя и фамилию:</b>",
-        "en": "👋 <b>Hello!</b>\n\nWelcome to the canvas ordering bot! ✨\nPlease register to place an order.\n\n✏️ <b>Enter your full name:</b>",
+        "uz": "👋 <b>Assalomu alaykum!</b>\n\nKartinalar buyurtma qilish botiga xush kelibsiz! ✨\n\n✏️ <b>Ismingizni kiriting:</b>",
+        "ru": "👋 <b>Здравствуйте!</b>\n\nДобро пожаловать в бот заказа картин! ✨\n\n✏️ <b>Введите ваше имя:</b>",
+        "en": "👋 <b>Hello!</b>\n\nWelcome to the canvas ordering bot! ✨\n\n✏️ <b>Enter your name:</b>",
     },
     "welcome_back": {
         "uz": "👋 Assalomu alaykum, {name}!\n\nQuyidagi menyudan kerakli bo'limni tanlang:",
