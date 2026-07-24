@@ -1,0 +1,1439 @@
+2026-07-24 02:10:53,799 | INFO | bot | Database initialized.
+2026-07-24 02:10:53,999 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:10:54,583 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:10:54,583 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:10:54,933 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:11:18,971 | INFO | aiogram.event | Update id=510739493 is handled. Duration 656 ms by bot id=8942535926
+2026-07-24 02:11:35,625 | INFO | aiogram.event | Update id=510739494 is handled. Duration 1031 ms by bot id=8942535926
+2026-07-24 02:11:42,588 | INFO | aiogram.event | Update id=510739495 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:11:52,949 | INFO | aiogram.event | Update id=510739496 is handled. Duration 718 ms by bot id=8942535926
+2026-07-24 02:12:04,709 | INFO | aiogram.event | Update id=510739497 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:12:07,883 | INFO | aiogram.event | Update id=510739498 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:12:19,012 | INFO | aiogram.event | Update id=510739499 is not handled. Duration 78 ms by bot id=8942535926
+2026-07-24 02:13:06,583 | INFO | bot | Database initialized.
+2026-07-24 02:13:06,652 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:13:08,604 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:13:08,604 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:13:08,898 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:13:50,155 | INFO | aiogram.event | Update id=510739500 is handled. Duration 905 ms by bot id=8942535926
+2026-07-24 02:14:38,199 | INFO | aiogram.event | Update id=510739501 is handled. Duration 717 ms by bot id=8942535926
+2026-07-24 02:15:48,971 | INFO | aiogram.event | Update id=510739502 is handled. Duration 1327 ms by bot id=8942535926
+2026-07-24 02:15:52,602 | INFO | aiogram.event | Update id=510739503 is handled. Duration 358 ms by bot id=8942535926
+2026-07-24 02:15:59,148 | INFO | aiogram.event | Update id=510739504 is handled. Duration 578 ms by bot id=8942535926
+2026-07-24 02:16:20,272 | INFO | aiogram.event | Update id=510739505 is handled. Duration 781 ms by bot id=8942535926
+2026-07-24 02:16:31,228 | INFO | aiogram.event | Update id=510739506 is handled. Duration 813 ms by bot id=8942535926
+2026-07-24 02:16:39,667 | INFO | aiogram.event | Update id=510739507 is handled. Duration 3780 ms by bot id=8942535926
+2026-07-24 02:16:41,320 | INFO | aiogram.event | Update id=510739508 is handled. Duration 766 ms by bot id=8942535926
+2026-07-24 02:16:42,228 | INFO | aiogram.event | Update id=510739509 is handled. Duration 593 ms by bot id=8942535926
+2026-07-24 02:16:44,873 | INFO | aiogram.event | Update id=510739510 is handled. Duration 844 ms by bot id=8942535926
+2026-07-24 02:16:49,747 | INFO | aiogram.event | Update id=510739511 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:16:52,195 | INFO | aiogram.event | Update id=510739512 is handled. Duration 468 ms by bot id=8942535926
+2026-07-24 02:16:57,072 | INFO | aiogram.event | Update id=510739513 is handled. Duration 687 ms by bot id=8942535926
+2026-07-24 02:17:04,194 | INFO | aiogram.event | Update id=510739514 is handled. Duration 437 ms by bot id=8942535926
+2026-07-24 02:17:19,132 | INFO | bot | Database initialized.
+2026-07-24 02:17:19,214 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:17:19,819 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:17:19,819 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:17:19,969 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:17:20,886 | INFO | aiogram.event | Update id=510739515 is handled. Duration 733 ms by bot id=8942535926
+2026-07-24 02:17:29,311 | INFO | aiogram.event | Update id=510739516 is handled. Duration 1125 ms by bot id=8942535926
+2026-07-24 02:17:33,922 | INFO | aiogram.event | Update id=510739517 is handled. Duration 593 ms by bot id=8942535926
+2026-07-24 02:17:43,454 | INFO | aiogram.event | Update id=510739518 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 02:17:45,451 | INFO | aiogram.event | Update id=510739519 is not handled. Duration 61 ms by bot id=8942535926
+2026-07-24 02:18:18,477 | INFO | aiogram.event | Update id=510739520 is handled. Duration 922 ms by bot id=8942535926
+2026-07-24 02:18:19,909 | INFO | aiogram.event | Update id=510739521 is handled. Duration 577 ms by bot id=8942535926
+2026-07-24 02:18:25,944 | INFO | aiogram.event | Update id=510739522 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:18:30,246 | INFO | aiogram.event | Update id=510739523 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 02:18:35,363 | INFO | aiogram.event | Update id=510739524 is handled. Duration 407 ms by bot id=8942535926
+2026-07-24 02:18:39,051 | INFO | aiogram.event | Update id=510739525 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:18:41,924 | INFO | aiogram.event | Update id=510739526 is handled. Duration 405 ms by bot id=8942535926
+2026-07-24 02:18:43,758 | INFO | aiogram.event | Update id=510739527 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:18:46,112 | INFO | aiogram.event | Update id=510739528 is handled. Duration 609 ms by bot id=8942535926
+2026-07-24 02:18:47,244 | INFO | aiogram.event | Update id=510739529 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:18:51,441 | INFO | aiogram.event | Update id=510739530 is handled. Duration 234 ms by bot id=8942535926
+2026-07-24 02:18:55,004 | INFO | aiogram.event | Update id=510739531 is handled. Duration 0 ms by bot id=8942535926
+2026-07-24 02:19:35,087 | INFO | aiogram.event | Update id=510739532 is handled. Duration 0 ms by bot id=8942535926
+2026-07-24 02:20:19,059 | INFO | bot | Database initialized.
+2026-07-24 02:20:19,131 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:20:19,746 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:20:19,746 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:20:19,877 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:20:20,683 | INFO | aiogram.event | Update id=510739533 is handled. Duration 577 ms by bot id=8942535926
+2026-07-24 02:20:29,012 | INFO | aiogram.event | Update id=510739534 is handled. Duration 1703 ms by bot id=8942535926
+2026-07-24 02:20:34,574 | INFO | aiogram.event | Update id=510739535 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:20:37,012 | INFO | aiogram.event | Update id=510739536 is handled. Duration 610 ms by bot id=8942535926
+2026-07-24 02:20:38,755 | INFO | aiogram.event | Update id=510739537 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 02:20:55,756 | INFO | aiogram.event | Update id=510739538 is handled. Duration 640 ms by bot id=8942535926
+2026-07-24 02:21:12,718 | INFO | aiogram.event | Update id=510739539 is handled. Duration 781 ms by bot id=8942535926
+2026-07-24 02:21:15,729 | INFO | aiogram.event | Update id=510739540 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:22:54,480 | INFO | bot | Database initialized.
+2026-07-24 02:22:54,569 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:22:55,371 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:22:55,372 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:22:55,564 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:23:22,609 | INFO | aiogram.event | Update id=510739541 is handled. Duration 1141 ms by bot id=8942535926
+2026-07-24 02:23:25,158 | INFO | aiogram.event | Update id=510739542 is handled. Duration 717 ms by bot id=8942535926
+2026-07-24 02:23:44,979 | INFO | aiogram.event | Update id=510739543 is handled. Duration 891 ms by bot id=8942535926
+2026-07-24 02:23:44,981 | INFO | aiogram.event | Update id=510739555 is handled. Duration 891 ms by bot id=8942535926
+2026-07-24 02:23:44,986 | INFO | aiogram.event | Update id=510739550 is handled. Duration 891 ms by bot id=8942535926
+2026-07-24 02:23:45,070 | INFO | aiogram.event | Update id=510739547 is handled. Duration 984 ms by bot id=8942535926
+2026-07-24 02:23:45,071 | INFO | aiogram.event | Update id=510739545 is handled. Duration 984 ms by bot id=8942535926
+2026-07-24 02:23:45,126 | INFO | aiogram.event | Update id=510739546 is handled. Duration 1047 ms by bot id=8942535926
+2026-07-24 02:23:45,128 | INFO | aiogram.event | Update id=510739551 is handled. Duration 1031 ms by bot id=8942535926
+2026-07-24 02:23:45,228 | INFO | aiogram.event | Update id=510739553 is handled. Duration 1125 ms by bot id=8942535926
+2026-07-24 02:23:45,242 | INFO | aiogram.event | Update id=510739544 is handled. Duration 1157 ms by bot id=8942535926
+2026-07-24 02:23:45,258 | INFO | aiogram.event | Update id=510739549 is handled. Duration 1156 ms by bot id=8942535926
+2026-07-24 02:23:45,292 | INFO | aiogram.event | Update id=510739548 is handled. Duration 1202 ms by bot id=8942535926
+2026-07-24 02:23:45,327 | INFO | aiogram.event | Update id=510739556 is handled. Duration 1233 ms by bot id=8942535926
+2026-07-24 02:23:45,348 | INFO | aiogram.event | Update id=510739557 is handled. Duration 1250 ms by bot id=8942535926
+2026-07-24 02:23:45,389 | INFO | aiogram.event | Update id=510739558 is handled. Duration 1297 ms by bot id=8942535926
+2026-07-24 02:23:45,390 | INFO | aiogram.event | Update id=510739559 is handled. Duration 1297 ms by bot id=8942535926
+2026-07-24 02:23:45,433 | INFO | aiogram.event | Update id=510739552 is handled. Duration 1327 ms by bot id=8942535926
+2026-07-24 02:23:45,641 | INFO | aiogram.event | Update id=510739554 is handled. Duration 1547 ms by bot id=8942535926
+2026-07-24 02:23:53,631 | INFO | aiogram.event | Update id=510739560 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:23:59,063 | INFO | aiogram.event | Update id=510739561 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:24:05,915 | INFO | aiogram.event | Update id=510739562 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:24:07,655 | INFO | aiogram.event | Update id=510739563 is handled. Duration 514 ms by bot id=8942535926
+2026-07-24 02:24:22,611 | INFO | aiogram.event | Update id=510739583 is handled. Duration 859 ms by bot id=8942535926
+2026-07-24 02:24:22,917 | INFO | aiogram.event | Update id=510739571 is handled. Duration 1170 ms by bot id=8942535926
+2026-07-24 02:24:22,933 | INFO | aiogram.event | Update id=510739581 is handled. Duration 1187 ms by bot id=8942535926
+2026-07-24 02:24:23,230 | INFO | aiogram.event | Update id=510739565 is handled. Duration 1483 ms by bot id=8942535926
+2026-07-24 02:24:23,239 | INFO | aiogram.event | Update id=510739567 is handled. Duration 1500 ms by bot id=8942535926
+2026-07-24 02:24:23,240 | INFO | aiogram.event | Update id=510739582 is handled. Duration 1484 ms by bot id=8942535926
+2026-07-24 02:24:23,251 | INFO | aiogram.event | Update id=510739569 is handled. Duration 1515 ms by bot id=8942535926
+2026-07-24 02:24:23,259 | INFO | aiogram.event | Update id=510739575 is handled. Duration 1515 ms by bot id=8942535926
+2026-07-24 02:24:23,265 | INFO | aiogram.event | Update id=510739579 is handled. Duration 1531 ms by bot id=8942535926
+2026-07-24 02:24:23,292 | INFO | aiogram.event | Update id=510739566 is handled. Duration 1545 ms by bot id=8942535926
+2026-07-24 02:24:23,308 | INFO | aiogram.event | Update id=510739572 is handled. Duration 1577 ms by bot id=8942535926
+2026-07-24 02:24:23,329 | INFO | aiogram.event | Update id=510739564 is handled. Duration 1592 ms by bot id=8942535926
+2026-07-24 02:24:23,426 | INFO | aiogram.event | Update id=510739576 is handled. Duration 1686 ms by bot id=8942535926
+2026-07-24 02:24:23,477 | INFO | aiogram.event | Update id=510739577 is handled. Duration 1733 ms by bot id=8942535926
+2026-07-24 02:24:23,482 | INFO | aiogram.event | Update id=510739570 is handled. Duration 1750 ms by bot id=8942535926
+2026-07-24 02:24:23,523 | INFO | aiogram.event | Update id=510739574 is handled. Duration 1781 ms by bot id=8942535926
+2026-07-24 02:24:23,711 | INFO | aiogram.event | Update id=510739573 is handled. Duration 1967 ms by bot id=8942535926
+2026-07-24 02:24:23,740 | INFO | aiogram.event | Update id=510739580 is handled. Duration 2000 ms by bot id=8942535926
+2026-07-24 02:24:23,756 | INFO | aiogram.event | Update id=510739578 is handled. Duration 2015 ms by bot id=8942535926
+2026-07-24 02:24:23,933 | INFO | aiogram.event | Update id=510739568 is handled. Duration 2186 ms by bot id=8942535926
+2026-07-24 02:24:28,346 | INFO | aiogram.event | Update id=510739584 is handled. Duration 656 ms by bot id=8942535926
+2026-07-24 02:24:31,007 | INFO | aiogram.event | Update id=510739585 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:24:32,743 | INFO | aiogram.event | Update id=510739586 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:25:01,013 | INFO | aiogram.event | Update id=510739587 is handled. Duration 828 ms by bot id=8942535926
+2026-07-24 02:25:23,018 | INFO | aiogram.event | Update id=510739588 is handled. Duration 719 ms by bot id=8942535926
+2026-07-24 02:25:26,921 | INFO | aiogram.event | Update id=510739589 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:25:32,705 | INFO | aiogram.event | Update id=510739590 is handled. Duration 577 ms by bot id=8942535926
+2026-07-24 02:25:36,024 | INFO | aiogram.event | Update id=510739591 is handled. Duration 813 ms by bot id=8942535926
+2026-07-24 02:25:42,948 | INFO | aiogram.event | Update id=510739592 is handled. Duration 562 ms by bot id=8942535926
+2026-07-24 02:25:46,265 | INFO | aiogram.event | Update id=510739593 is handled. Duration 719 ms by bot id=8942535926
+2026-07-24 02:25:48,750 | INFO | aiogram.event | Update id=510739594 is handled. Duration 483 ms by bot id=8942535926
+2026-07-24 02:25:53,839 | INFO | aiogram.event | Update id=510739595 is not handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:25:53,839 | ERROR | aiogram.event | Cause exception while process update id=510739595 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 73, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\user\gallery.py", line 93, in cb_gallery_select
+    await start_material_selection(callback, state, product_id)
+  File "D:\Vibe code\kartin\bot\handlers\user\order_flow.py", line 155, in start_material_selection
+    await callback.message.edit_text(t(lang, "pick_material"), reply_markup=kb)
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:26:27,124 | INFO | aiogram.event | Update id=510739596 is not handled. Duration 719 ms by bot id=8942535926
+2026-07-24 02:26:27,124 | ERROR | aiogram.event | Cause exception while process update id=510739596 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 73, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\user\gallery.py", line 93, in cb_gallery_select
+    await start_material_selection(callback, state, product_id)
+  File "D:\Vibe code\kartin\bot\handlers\user\order_flow.py", line 155, in start_material_selection
+    await callback.message.edit_text(t(lang, "pick_material"), reply_markup=kb)
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:26:40,659 | INFO | aiogram.event | Update id=510739597 is handled. Duration 217 ms by bot id=8942535926
+2026-07-24 02:26:46,272 | INFO | aiogram.event | Update id=510739598 is handled. Duration 297 ms by bot id=8942535926
+2026-07-24 02:26:48,936 | INFO | aiogram.event | Update id=510739599 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:27:02,151 | INFO | aiogram.event | Update id=510739600 is handled. Duration 438 ms by bot id=8942535926
+2026-07-24 02:27:08,801 | INFO | aiogram.event | Update id=510739601 is handled. Duration 702 ms by bot id=8942535926
+2026-07-24 02:27:13,408 | INFO | aiogram.event | Update id=510739602 is handled. Duration 514 ms by bot id=8942535926
+2026-07-24 02:27:16,239 | INFO | aiogram.event | Update id=510739603 is handled. Duration 468 ms by bot id=8942535926
+2026-07-24 02:27:18,529 | INFO | aiogram.event | Update id=510739604 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:27:20,482 | INFO | aiogram.event | Update id=510739605 is not handled. Duration 218 ms by bot id=8942535926
+2026-07-24 02:27:20,483 | ERROR | aiogram.event | Cause exception while process update id=510739605 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 73, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\user\gallery.py", line 93, in cb_gallery_select
+    await start_material_selection(callback, state, product_id)
+  File "D:\Vibe code\kartin\bot\handlers\user\order_flow.py", line 155, in start_material_selection
+    await callback.message.edit_text(t(lang, "pick_material"), reply_markup=kb)
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:27:37,576 | INFO | aiogram.event | Update id=510739606 is not handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:27:37,576 | ERROR | aiogram.event | Cause exception while process update id=510739606 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 73, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\user\gallery.py", line 93, in cb_gallery_select
+    await start_material_selection(callback, state, product_id)
+  File "D:\Vibe code\kartin\bot\handlers\user\order_flow.py", line 155, in start_material_selection
+    await callback.message.edit_text(t(lang, "pick_material"), reply_markup=kb)
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:29:51,711 | INFO | bot | Database initialized.
+2026-07-24 02:29:51,801 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:29:52,549 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:29:52,550 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:29:52,746 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:30:27,564 | INFO | aiogram.event | Update id=510739607 is handled. Duration 1234 ms by bot id=8942535926
+2026-07-24 02:30:34,836 | INFO | aiogram.event | Update id=510739608 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:30:37,802 | INFO | aiogram.event | Update id=510739609 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:30:48,660 | INFO | aiogram.event | Update id=510739610 is handled. Duration 717 ms by bot id=8942535926
+2026-07-24 02:31:00,123 | INFO | aiogram.event | Update id=510739611 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 02:31:04,936 | INFO | aiogram.event | Update id=510739612 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:31:08,216 | INFO | aiogram.event | Update id=510739613 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:31:16,511 | INFO | aiogram.event | Update id=510739614 is handled. Duration 1000 ms by bot id=8942535926
+2026-07-24 02:31:23,064 | INFO | aiogram.event | Update id=510739615 is handled. Duration 1734 ms by bot id=8942535926
+2026-07-24 02:34:23,899 | INFO | aiogram.event | Update id=510739616 is handled. Duration 1610 ms by bot id=8942535926
+2026-07-24 02:34:31,277 | INFO | aiogram.event | Update id=510739617 is handled. Duration 983 ms by bot id=8942535926
+2026-07-24 02:34:53,803 | INFO | aiogram.event | Update id=510739618 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:35:05,650 | INFO | aiogram.event | Update id=510739619 is handled. Duration 531 ms by bot id=8942535926
+2026-07-24 02:35:38,039 | INFO | aiogram.event | Update id=510739620 is handled. Duration 9530 ms by bot id=8942535926
+2026-07-24 02:36:17,829 | INFO | bot | Database initialized.
+2026-07-24 02:36:17,916 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:36:18,700 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:36:18,700 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:36:19,105 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:36:56,906 | INFO | aiogram.event | Update id=510739621 is handled. Duration 639 ms by bot id=8942535926
+2026-07-24 02:37:01,190 | INFO | aiogram.event | Update id=510739622 is handled. Duration 718 ms by bot id=8942535926
+2026-07-24 02:37:06,314 | INFO | aiogram.event | Update id=510739623 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:37:11,337 | INFO | aiogram.event | Update id=510739624 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 02:37:13,581 | INFO | aiogram.event | Update id=510739625 is handled. Duration 483 ms by bot id=8942535926
+2026-07-24 02:37:20,647 | INFO | aiogram.event | Update id=510739626 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:37:22,385 | INFO | aiogram.event | Update id=510739627 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:37:55,567 | INFO | aiogram.event | Update id=510739628 is handled. Duration 875 ms by bot id=8942535926
+2026-07-24 02:37:58,025 | INFO | aiogram.event | Update id=510739629 is handled. Duration 922 ms by bot id=8942535926
+2026-07-24 02:38:07,346 | INFO | aiogram.event | Update id=510739630 is handled. Duration 313 ms by bot id=8942535926
+2026-07-24 02:38:14,822 | INFO | aiogram.event | Update id=510739631 is handled. Duration 702 ms by bot id=8942535926
+2026-07-24 02:38:21,582 | INFO | aiogram.event | Update id=510739632 is handled. Duration 1031 ms by bot id=8942535926
+2026-07-24 02:38:31,305 | INFO | aiogram.event | Update id=510739633 is handled. Duration 296 ms by bot id=8942535926
+2026-07-24 02:40:56,968 | INFO | bot | Database initialized.
+2026-07-24 02:40:57,057 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:40:58,257 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:40:58,257 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:40:58,453 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:41:54,492 | INFO | aiogram.event | Update id=510739634 is handled. Duration 4593 ms by bot id=8942535926
+2026-07-24 02:42:09,539 | INFO | bot | Database initialized.
+2026-07-24 02:42:09,623 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:42:10,058 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:42:10,058 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:42:10,218 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:42:10,882 | INFO | aiogram.event | Update id=510739635 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:42:16,547 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+2026-07-24 02:42:16,548 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8942535926)
+2026-07-24 02:42:16,821 | INFO | aiogram.event | Update id=510739636 is handled. Duration 421 ms by bot id=8942535926
+2026-07-24 02:42:23,753 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8942535926)
+2026-07-24 02:42:35,189 | INFO | aiogram.event | Update id=510739637 is handled. Duration 11437 ms by bot id=8942535926
+2026-07-24 02:42:42,963 | INFO | aiogram.event | Update id=510739638 is not handled. Duration 47 ms by bot id=8942535926
+2026-07-24 02:42:45,985 | INFO | aiogram.event | Update id=510739639 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:42:47,720 | INFO | aiogram.event | Update id=510739640 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:42:50,284 | INFO | aiogram.event | Update id=510739641 is handled. Duration 561 ms by bot id=8942535926
+2026-07-24 02:42:53,242 | INFO | aiogram.event | Update id=510739642 is handled. Duration 297 ms by bot id=8942535926
+2026-07-24 02:43:28,686 | INFO | aiogram.event | Update id=510739643 is handled. Duration 1141 ms by bot id=8942535926
+2026-07-24 02:43:35,537 | INFO | aiogram.event | Update id=510739644 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:43:40,866 | INFO | aiogram.event | Update id=510739645 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:43:57,516 | INFO | aiogram.event | Update id=510739646 is not handled. Duration 16 ms by bot id=8942535926
+2026-07-24 02:43:59,511 | INFO | aiogram.event | Update id=510739647 is handled. Duration 750 ms by bot id=8942535926
+2026-07-24 02:44:01,616 | INFO | aiogram.event | Update id=510739648 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:44:04,854 | INFO | aiogram.event | Update id=510739649 is handled. Duration 858 ms by bot id=8942535926
+2026-07-24 02:44:09,223 | INFO | aiogram.event | Update id=510739650 is handled. Duration 422 ms by bot id=8942535926
+2026-07-24 02:44:23,858 | INFO | bot | Database initialized.
+2026-07-24 02:44:23,940 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:44:24,411 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:44:24,412 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:44:24,690 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:44:25,581 | INFO | aiogram.event | Update id=510739652 is handled. Duration 702 ms by bot id=8942535926
+2026-07-24 02:44:28,852 | INFO | aiogram.event | Update id=510739653 is handled. Duration 188 ms by bot id=8942535926
+2026-07-24 02:44:33,189 | INFO | aiogram.event | Update id=510739654 is handled. Duration 202 ms by bot id=8942535926
+2026-07-24 02:44:38,223 | INFO | aiogram.event | Update id=510739655 is handled. Duration 2093 ms by bot id=8942535926
+2026-07-24 02:44:41,017 | INFO | aiogram.event | Update id=510739656 is handled. Duration 375 ms by bot id=8942535926
+2026-07-24 02:44:42,739 | INFO | aiogram.event | Update id=510739657 is handled. Duration 343 ms by bot id=8942535926
+2026-07-24 02:44:45,078 | INFO | aiogram.event | Update id=510739658 is handled. Duration 1140 ms by bot id=8942535926
+2026-07-24 02:44:47,502 | INFO | aiogram.event | Update id=510739659 is handled. Duration 906 ms by bot id=8942535926
+2026-07-24 02:44:51,347 | INFO | aiogram.event | Update id=510739660 is handled. Duration 438 ms by bot id=8942535926
+2026-07-24 02:44:53,259 | INFO | aiogram.event | Update id=510739661 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:44:54,900 | INFO | aiogram.event | Update id=510739662 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:44:56,742 | INFO | aiogram.event | Update id=510739663 is handled. Duration 516 ms by bot id=8942535926
+2026-07-24 02:44:58,791 | INFO | aiogram.event | Update id=510739664 is handled. Duration 920 ms by bot id=8942535926
+2026-07-24 02:45:05,142 | INFO | aiogram.event | Update id=510739665 is handled. Duration 860 ms by bot id=8942535926
+2026-07-24 02:45:14,761 | INFO | aiogram.event | Update id=510739666 is handled. Duration 531 ms by bot id=8942535926
+2026-07-24 02:45:25,019 | INFO | aiogram.event | Update id=510739667 is handled. Duration 469 ms by bot id=8942535926
+2026-07-24 02:45:27,614 | INFO | aiogram.event | Update id=510739668 is handled. Duration 343 ms by bot id=8942535926
+2026-07-24 02:45:37,393 | INFO | aiogram.event | Update id=510739669 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:45:40,365 | INFO | aiogram.event | Update id=510739670 is handled. Duration 718 ms by bot id=8942535926
+2026-07-24 02:45:42,008 | INFO | aiogram.event | Update id=510739671 is handled. Duration 437 ms by bot id=8942535926
+2026-07-24 02:46:49,279 | INFO | aiogram.event | Update id=510739672 is handled. Duration 639 ms by bot id=8942535926
+2026-07-24 02:46:51,808 | INFO | aiogram.event | Update id=510739673 is handled. Duration 375 ms by bot id=8942535926
+2026-07-24 02:46:55,442 | INFO | aiogram.event | Update id=510739674 is handled. Duration 907 ms by bot id=8942535926
+2026-07-24 02:47:07,237 | INFO | aiogram.event | Update id=510739675 is handled. Duration 4500 ms by bot id=8942535926
+2026-07-24 02:47:09,967 | INFO | aiogram.event | Update id=510739676 is handled. Duration 718 ms by bot id=8942535926
+2026-07-24 02:47:12,214 | INFO | aiogram.event | Update id=510739677 is handled. Duration 672 ms by bot id=8942535926
+2026-07-24 02:47:42,603 | INFO | bot | Database initialized.
+2026-07-24 02:47:42,678 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:47:43,758 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:47:43,759 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:47:43,907 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:48:47,436 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+2026-07-24 02:48:47,436 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8942535926)
+2026-07-24 02:49:00,335 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8942535926)
+2026-07-24 02:50:21,027 | INFO | bot | Database initialized.
+2026-07-24 02:50:33,025 | INFO | bot | Database initialized.
+2026-07-24 02:50:33,099 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 02:50:34,052 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 02:50:34,053 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 02:50:34,194 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 02:50:44,510 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 64] The specified network name is no longer available
+2026-07-24 02:50:44,510 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8942535926)
+2026-07-24 02:50:56,472 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8942535926)
+2026-07-24 02:52:21,128 | INFO | aiogram.event | Update id=510739678 is handled. Duration 890 ms by bot id=8942535926
+2026-07-24 02:52:23,413 | INFO | aiogram.event | Update id=510739679 is handled. Duration 295 ms by bot id=8942535926
+2026-07-24 02:52:27,009 | INFO | aiogram.event | Update id=510739680 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:52:34,267 | INFO | aiogram.event | Update id=510739681 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:52:37,238 | INFO | aiogram.event | Update id=510739682 is handled. Duration 407 ms by bot id=8942535926
+2026-07-24 02:52:39,798 | INFO | aiogram.event | Update id=510739683 is handled. Duration 311 ms by bot id=8942535926
+2026-07-24 02:52:50,344 | INFO | aiogram.event | Update id=510739684 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 02:52:58,331 | INFO | aiogram.event | Update id=510739685 is handled. Duration 1015 ms by bot id=8942535926
+2026-07-24 02:53:04,885 | INFO | aiogram.event | Update id=510739686 is handled. Duration 578 ms by bot id=8942535926
+2026-07-24 02:53:06,320 | INFO | aiogram.event | Update id=510739687 is handled. Duration 609 ms by bot id=8942535926
+2026-07-24 02:53:07,752 | INFO | aiogram.event | Update id=510739688 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:53:08,419 | INFO | aiogram.event | Update id=510739689 is handled. Duration 1108 ms by bot id=8942535926
+2026-07-24 02:53:11,131 | INFO | aiogram.event | Update id=510739690 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:53:12,461 | INFO | aiogram.event | Update id=510739691 is handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:53:18,197 | INFO | aiogram.event | Update id=510739692 is handled. Duration 843 ms by bot id=8942535926
+2026-07-24 02:53:22,497 | INFO | aiogram.event | Update id=510739693 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:53:24,442 | INFO | aiogram.event | Update id=510739694 is handled. Duration 593 ms by bot id=8942535926
+2026-07-24 02:53:28,437 | INFO | aiogram.event | Update id=510739695 is handled. Duration 657 ms by bot id=8942535926
+2026-07-24 02:53:30,898 | INFO | aiogram.event | Update id=510739696 is handled. Duration 922 ms by bot id=8942535926
+2026-07-24 02:53:33,664 | INFO | aiogram.event | Update id=510739697 is handled. Duration 1452 ms by bot id=8942535926
+2026-07-24 02:54:27,625 | INFO | aiogram.event | Update id=510739698 is not handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:54:27,625 | ERROR | aiogram.event | Cause exception while process update id=510739698 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\panel.py", line 48, in cb_admin_panel
+    await callback.message.edit_text(
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:54:42,369 | INFO | aiogram.event | Update id=510739699 is not handled. Duration 297 ms by bot id=8942535926
+2026-07-24 02:54:42,370 | ERROR | aiogram.event | Cause exception while process update id=510739699 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\orders_management.py", line 61, in cb_admin_orders_menu
+    await callback.message.edit_text(
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 02:54:49,850 | INFO | aiogram.event | Update id=510739700 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:54:52,201 | INFO | aiogram.event | Update id=510739701 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:54:53,633 | INFO | aiogram.event | Update id=510739702 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:55:10,331 | INFO | aiogram.event | Update id=510739703 is handled. Duration 1031 ms by bot id=8942535926
+2026-07-24 02:55:15,038 | INFO | aiogram.event | Update id=510739704 is handled. Duration 514 ms by bot id=8942535926
+2026-07-24 02:55:26,199 | INFO | aiogram.event | Update id=510739705 is handled. Duration 422 ms by bot id=8942535926
+2026-07-24 02:55:28,040 | INFO | aiogram.event | Update id=510739706 is handled. Duration 500 ms by bot id=8942535926
+2026-07-24 02:55:37,768 | INFO | aiogram.event | Update id=510739707 is handled. Duration 813 ms by bot id=8942535926
+2026-07-24 02:55:41,864 | INFO | aiogram.event | Update id=510739708 is handled. Duration 563 ms by bot id=8942535926
+2026-07-24 02:55:43,399 | INFO | aiogram.event | Update id=510739709 is handled. Duration 610 ms by bot id=8942535926
+2026-07-24 02:55:49,861 | INFO | aiogram.event | Update id=510739710 is handled. Duration 718 ms by bot id=8942535926
+2026-07-24 02:55:51,798 | INFO | aiogram.event | Update id=510739711 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 02:55:54,874 | INFO | aiogram.event | Update id=510739712 is handled. Duration 1437 ms by bot id=8942535926
+2026-07-24 02:56:07,977 | INFO | aiogram.event | Update id=510739713 is not handled. Duration 608 ms by bot id=8942535926
+2026-07-24 02:56:07,978 | ERROR | aiogram.event | Cause exception while process update id=510739713 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 60, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\orders_management.py", line 314, in cb_admin_set_status
+    await callback.message.edit_text(
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 03:01:56,349 | INFO | bot | Database initialized.
+2026-07-24 03:01:56,425 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 03:01:57,171 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 03:01:57,172 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 03:01:57,367 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 12:20:29,417 | ERROR | aiogram.dispatcher | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-07-24 12:20:29,418 | WARNING | aiogram.dispatcher | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8942535926)
+2026-07-24 12:20:29,419 | WARNING | apscheduler.executors.default | Run time of job "send_dropoff_reminders (trigger: interval[0:10:00], next run at: 2026-07-24 12:21:56 +05)" was missed by 0:08:32.994920
+2026-07-24 12:20:29,419 | WARNING | apscheduler.executors.default | Run time of job "mark_tark_etdi (trigger: interval[1:00:00], next run at: 2026-07-24 13:01:56 +05)" was missed by 0:18:32.994920
+2026-07-24 12:20:31,048 | INFO | aiogram.dispatcher | Connection established (tryings = 1, bot id = 8942535926)
+2026-07-24 12:20:31,121 | INFO | aiogram.event | Update id=510739714 is not handled. Duration 78 ms by bot id=8942535926
+2026-07-24 12:20:31,121 | INFO | aiogram.event | Update id=510739715 is not handled. Duration 78 ms by bot id=8942535926
+2026-07-24 12:20:32,133 | INFO | aiogram.event | Update id=510739716 is handled. Duration 1078 ms by bot id=8942535926
+2026-07-24 12:28:35,437 | INFO | aiogram.event | Update id=510739717 is handled. Duration 4750 ms by bot id=8942535926
+2026-07-24 12:30:30,785 | INFO | aiogram.event | Update id=510739718 is handled. Duration 3000 ms by bot id=8942535926
+2026-07-24 12:30:45,171 | INFO | aiogram.event | Update id=510739719 is handled. Duration 452 ms by bot id=8942535926
+2026-07-24 12:30:54,916 | INFO | aiogram.event | Update id=510739720 is handled. Duration 514 ms by bot id=8942535926
+2026-07-24 12:31:03,909 | INFO | aiogram.event | Update id=510739721 is handled. Duration 1420 ms by bot id=8942535926
+2026-07-24 12:31:16,096 | INFO | aiogram.event | Update id=510739722 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 12:31:38,214 | INFO | aiogram.event | Update id=510739723 is handled. Duration 1327 ms by bot id=8942535926
+2026-07-24 12:32:03,607 | INFO | aiogram.event | Update id=510739724 is handled. Duration 1329 ms by bot id=8942535926
+2026-07-24 12:32:09,651 | INFO | aiogram.event | Update id=510739725 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 12:32:12,621 | INFO | aiogram.event | Update id=510739726 is handled. Duration 625 ms by bot id=8942535926
+2026-07-24 12:32:16,003 | INFO | aiogram.event | Update id=510739727 is handled. Duration 515 ms by bot id=8942535926
+2026-07-24 12:32:47,026 | INFO | aiogram.event | Update id=510739728 is handled. Duration 1219 ms by bot id=8942535926
+2026-07-24 12:32:54,195 | INFO | aiogram.event | Update id=510739729 is handled. Duration 1016 ms by bot id=8942535926
+2026-07-24 12:32:58,700 | INFO | aiogram.event | Update id=510739730 is handled. Duration 1031 ms by bot id=8942535926
+2026-07-24 12:33:06,891 | INFO | aiogram.event | Update id=510739731 is handled. Duration 719 ms by bot id=8942535926
+2026-07-24 12:33:09,772 | INFO | aiogram.event | Update id=510739732 is handled. Duration 922 ms by bot id=8942535926
+2026-07-24 12:33:26,759 | INFO | aiogram.event | Update id=510739733 is handled. Duration 1328 ms by bot id=8942535926
+2026-07-24 12:33:53,997 | INFO | aiogram.event | Update id=510739734 is handled. Duration 922 ms by bot id=8942535926
+2026-07-24 12:34:04,911 | INFO | aiogram.event | Update id=510739735 is handled. Duration 780 ms by bot id=8942535926
+2026-07-24 12:34:09,768 | INFO | aiogram.event | Update id=510739736 is handled. Duration 610 ms by bot id=8942535926
+2026-07-24 12:34:16,631 | INFO | aiogram.event | Update id=510739737 is handled. Duration 1358 ms by bot id=8942535926
+2026-07-24 12:34:45,629 | INFO | aiogram.event | Update id=510739738 is not handled. Duration 15 ms by bot id=8942535926
+2026-07-24 12:34:45,630 | ERROR | aiogram.event | Cause exception while process update id=510739738 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:35:13,994 | INFO | aiogram.event | Update id=510739739 is not handled. Duration 16 ms by bot id=8942535926
+2026-07-24 12:35:13,995 | ERROR | aiogram.event | Cause exception while process update id=510739739 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:35:26,390 | INFO | aiogram.event | Update id=510739740 is not handled. Duration 31 ms by bot id=8942535926
+2026-07-24 12:35:26,391 | ERROR | aiogram.event | Cause exception while process update id=510739740 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:36:34,376 | INFO | aiogram.event | Update id=510739741 is not handled. Duration 15 ms by bot id=8942535926
+2026-07-24 12:36:34,377 | ERROR | aiogram.event | Cause exception while process update id=510739741 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:37:20,766 | INFO | aiogram.event | Update id=510739742 is not handled. Duration 16 ms by bot id=8942535926
+2026-07-24 12:37:20,767 | ERROR | aiogram.event | Cause exception while process update id=510739742 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:37:28,643 | INFO | aiogram.event | Update id=510739743 is not handled. Duration 16 ms by bot id=8942535926
+2026-07-24 12:37:28,644 | ERROR | aiogram.event | Cause exception while process update id=510739743 by bot id=8942535926
+TypeError: can't subtract offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 50, in __call__
+    and (now - last_active) > timedelta(hours=2)
+         ~~~~^~~~~~~~~~~~~
+TypeError: can't subtract offset-naive and offset-aware datetimes
+2026-07-24 12:40:29,362 | INFO | bot | Database initialized.
+2026-07-24 12:40:29,478 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 12:40:30,399 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 12:40:30,401 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 12:40:30,595 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 12:45:06,304 | INFO | aiogram.event | Update id=510739744 is handled. Duration 2796 ms by bot id=8942535926
+2026-07-24 12:45:07,215 | INFO | aiogram.event | Update id=510739745 is not handled. Duration 343 ms by bot id=8942535926
+2026-07-24 12:45:07,215 | ERROR | aiogram.event | Cause exception while process update id=510739745 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\panel.py", line 48, in cb_admin_panel
+    await callback.message.edit_text(
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: there is no text in the message to edit
+2026-07-24 12:45:35,965 | INFO | aiogram.event | Update id=510739746 is handled. Duration 13141 ms by bot id=8942535926
+2026-07-24 12:46:49,539 | INFO | bot | Database initialized.
+2026-07-24 12:46:49,638 | INFO | bot | Scheduler started with timezone: Asia/Tashkent
+2026-07-24 12:46:50,371 | INFO | bot | Bot @KartinkauzBot is up and running.
+2026-07-24 12:46:50,372 | INFO | aiogram.dispatcher | Start polling
+2026-07-24 12:46:50,606 | INFO | aiogram.dispatcher | Run polling for bot @KartinkauzBot id=8942535926 - 'KartinkaBot'
+2026-07-24 12:46:53,461 | INFO | aiogram.event | Update id=510739748 is not handled. Duration 2531 ms by bot id=8942535926
+2026-07-24 12:46:53,461 | ERROR | aiogram.event | Cause exception while process update id=510739748 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\admins.py", line 148, in cb_admin_add
+    await callback.message.edit_text(
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2026-07-24 12:46:53,664 | INFO | aiogram.event | Update id=510739747 is not handled. Duration 2733 ms by bot id=8942535926
+2026-07-24 12:46:53,664 | ERROR | aiogram.event | Cause exception while process update id=510739747 by bot id=8942535926
+TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+Traceback (most recent call last):
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\flood_control.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\middlewares\state_sync.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Vibe code\kartin\bot\handlers\admin\admins.py", line 154, in cb_admin_add
+    await callback.answer()
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 488, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Muham\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
+2026-07-24 12:47:02,735 | INFO | aiogram.event | Update id=510739749 is handled. Duration 1688 ms by bot id=8942535926
+2026-07-24 12:47:11,602 | INFO | aiogram.event | Update id=510739750 is handled. Duration 2141 ms by bot id=8942535926
+2026-07-24 12:47:37,827 | INFO | aiogram.event | Update id=510739751 is handled. Duration 1047 ms by bot id=8942535926
+2026-07-24 12:47:39,963 | INFO | aiogram.event | Update id=510739752 is handled. Duration 297 ms by bot id=8942535926
+2026-07-24 12:47:49,484 | INFO | aiogram.event | Update id=510739753 is handled. Duration 313 ms by bot id=8942535926
+2026-07-24 12:47:58,804 | INFO | aiogram.event | Update id=510739754 is handled. Duration 296 ms by bot id=8942535926
+2026-07-24 12:48:01,159 | INFO | aiogram.event | Update id=510739755 is handled. Duration 405 ms by bot id=8942535926
+2026-07-24 12:48:01,981 | INFO | aiogram.event | Update id=510739756 is handled. Duration 313 ms by bot id=8942535926
+2026-07-24 12:48:02,592 | INFO | aiogram.event | Update id=510739757 is handled. Duration 406 ms by bot id=8942535926
+2026-07-24 12:48:05,870 | INFO | aiogram.event | Update id=510739758 is handled. Duration 593 ms by bot id=8942535926
+2026-07-24 12:48:08,839 | INFO | aiogram.event | Update id=510739759 is handled. Duration 1217 ms by bot id=8942535926
+2026-07-24 12:48:20,020 | INFO | aiogram.event | Update id=510739760 is not handled. Duration 16 ms by bot id=8942535926
+2026-07-24 12:48:26,061 | INFO | aiogram.event | Update id=510739761 is handled. Duration 734 ms by bot id=8942535926
+2026-07-24 12:48:29,632 | INFO | aiogram.event | Update id=510739762 is handled. Duration 1531 ms by bot id=8942535926
+2026-07-24 12:48:42,171 | INFO | aiogram.event | Update id=510739763 is not handled. Duration 46 ms by bot id=8942535926
+2026-07-24 12:48:55,331 | INFO | aiogram.event | Update id=510739764 is handled. Duration 1842 ms by bot id=8942535926
