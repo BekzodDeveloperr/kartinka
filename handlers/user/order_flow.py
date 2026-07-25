@@ -169,12 +169,18 @@ async def start_material_selection(callback: CallbackQuery, state: FSMContext, p
         await update_user_state(session, callback.from_user.id, "OrderFlow:choosing_material")
     if not materials:
         await edit_or_send_text(callback, "Xomashyolar topilmadi.")
-        await callback.answer()
+        try:
+            await callback.answer()
+        except Exception:
+            pass
         return
     mats_loc = [(m.id, await get_entity_name(m, lang)) for m in materials]
     kb = materials_kb(mats_loc, lang)
     await edit_or_send_text(callback, t(lang, "pick_material"), reply_markup=kb)
-    await callback.answer()
+    try:
+        await callback.answer()
+    except Exception:
+        pass
 
 
 @router.callback_query(F.data.startswith("mat:"), OrderFlow.choosing_material)
