@@ -32,6 +32,21 @@ async def _check_perm(telegram_id: int) -> bool:
     return role_has_permission(role, "catalog")
 
 
+async def safe_edit(callback: CallbackQuery, text: str, reply_markup=None):
+    """Edit message text safely, or send new if editing fails."""
+    try:
+        await callback.message.edit_text(text, reply_markup=reply_markup, parse_mode="HTML")
+    except Exception:
+        try:
+            await callback.message.answer(text, reply_markup=reply_markup, parse_mode="HTML")
+        except Exception:
+            pass
+    try:
+        await callback.answer()
+    except Exception:
+        pass
+
+
 # ------------------- Menu -------------------
 
 @router.callback_query(F.data == "admin:catalog")
@@ -39,11 +54,7 @@ async def cb_catalog_menu(callback: CallbackQuery):
     if not await _check_perm(callback.from_user.id):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
-    await callback.message.edit_text(
-        "🛠 <b>Katalog boshqaruvi</b>",
-        reply_markup=admin_catalog_menu_kb(),
-    )
-    await callback.answer()
+    await safe_edit(callback, "🛠 <b>Katalog boshqaruvi</b>", reply_markup=admin_catalog_menu_kb())
 
 
 # ------------------- Categories -------------------
@@ -62,9 +73,11 @@ async def cb_list_categories(callback: CallbackQuery):
     b.button(text="➕ Yangi kategoriya qo'shish", callback_data="catadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
-    text = "🏷 <b>Kategoriyalar ro'yxati:</b>\n\n" + ("\n".join(f"• {c.name_uz} (ID: #{c.id})" for c in rows) if rows else "*(Kategoriyalar mavjud emas)*")
-    await callback.message.edit_text(text, reply_markup=b.as_markup())
-    await callback.answer()
+    text = (
+        "🏷 <b>Kategoriyalar ro'yxati:</b>\n\n"
+        + ("\n".join(f"• {c.name_uz} (ID: #{c.id})" for c in rows) if rows else "*(Kategoriyalar mavjud emas)*")
+    )
+    await safe_edit(callback, text, reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("catview:"))
@@ -73,8 +86,7 @@ async def cb_cat_view(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, cid_str = callback.data.split(":")
-        cid = int(cid_str)
+        cid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -89,12 +101,11 @@ async def cb_cat_view(callback: CallbackQuery):
     b.button(text="🗑 Kategoriyani o'chirish", callback_data=f"catdel:{c.id}")
     b.button(text="⬅️ Kategoriyalar", callback_data="cat_admin:categories")
     b.adjust(1)
-    await callback.message.edit_text(
-        f"🏷 <b>Kategoriya:</b> {c.name_uz} (ID: #{c.id})\n\n"
-        f"Quyidagi harakatlardan birini tanlang:",
+    await safe_edit(
+        callback,
+        f"🏷 <b>Kategoriya:</b> {c.name_uz} (ID: #{c.id})\n\nQuyidagi harakatlardan birini tanlang:",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("catedit:"))
@@ -103,8 +114,7 @@ async def cb_cat_edit_prompt(callback: CallbackQuery, state: FSMContext):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, cid_str = callback.data.split(":")
-        cid = int(cid_str)
+        cid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -115,11 +125,11 @@ async def cb_cat_edit_prompt(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="edit_category", edit_category_id=cid)
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         f"✏️ <b>«{c.name_uz}»</b> kategoriyasi uchun yangi nom kiriting:",
         reply_markup=admin_back_kb("cat_admin:categories"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data == "catadd")
@@ -129,11 +139,11 @@ async def cb_cat_add(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_category")
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "✏️ Yangi kategoriya nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:categories"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("catdel:"))
@@ -142,24 +152,21 @@ async def cb_cat_del_prompt(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, cid_str = callback.data.split(":")
-        cid = int(cid_str)
+        cid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
-    await callback.message.edit_text(
-        "❓ Kategoriyani o'chirishni tasdiqlaysizmi? "
-        "Uning ostidagi barcha mahsulotlar ham o'chiriladi!",
+    await safe_edit(
+        callback,
+        "❓ Kategoriyani o'chirishni tasdiqlaysizmi?\nUning ostidagi barcha mahsulotlar ham o'chiriladi!",
         reply_markup=admin_confirm_delete_kb("category", cid),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("confirm_del:category:"))
 async def cb_cat_del_confirm(callback: CallbackQuery):
     try:
-        parts = callback.data.split(":", 2)
-        cid = int(parts[2])
+        cid = int(callback.data.split(":", 2)[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -192,9 +199,11 @@ async def cb_list_materials(callback: CallbackQuery):
     b.button(text="➕ Yangi xomashyo", callback_data="matadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
-    text = "🧵 <b>Xomashyolar (Materiallar):</b>\n\n" + ("\n".join(f"• {m.name_uz} (ID: #{m.id})" for m in rows) if rows else "*(Materiallar mavjud emas)*")
-    await callback.message.edit_text(text, reply_markup=b.as_markup())
-    await callback.answer()
+    text = (
+        "🧵 <b>Xomashyolar (Materiallar):</b>\n\n"
+        + ("\n".join(f"• {m.name_uz} (ID: #{m.id})" for m in rows) if rows else "*(Materiallar mavjud emas)*")
+    )
+    await safe_edit(callback, text, reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("matview:"))
@@ -203,8 +212,7 @@ async def cb_mat_view(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, mid_str = callback.data.split(":")
-        mid = int(mid_str)
+        mid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -219,12 +227,11 @@ async def cb_mat_view(callback: CallbackQuery):
     b.button(text="🗑 Materialni o'chirish", callback_data=f"matdel:{m.id}")
     b.button(text="⬅️ Materiallar", callback_data="cat_admin:materials")
     b.adjust(1)
-    await callback.message.edit_text(
-        f"🧵 <b>Material:</b> {m.name_uz} (ID: #{m.id})\n\n"
-        f"Quyidagi harakatlardan birini tanlang:",
+    await safe_edit(
+        callback,
+        f"🧵 <b>Material:</b> {m.name_uz} (ID: #{m.id})\n\nQuyidagi harakatlardan birini tanlang:",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("matedit:"))
@@ -233,8 +240,7 @@ async def cb_mat_edit_prompt(callback: CallbackQuery, state: FSMContext):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, mid_str = callback.data.split(":")
-        mid = int(mid_str)
+        mid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -245,11 +251,11 @@ async def cb_mat_edit_prompt(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="edit_material", edit_material_id=mid)
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         f"✏️ <b>«{m.name_uz}»</b> materialining yangi nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:materials"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data == "matadd")
@@ -259,11 +265,11 @@ async def cb_mat_add(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_material")
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "✏️ Yangi xomashyo nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:materials"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("matdel:"))
@@ -272,23 +278,21 @@ async def cb_mat_del_prompt(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, mid_str = callback.data.split(":")
-        mid = int(mid_str)
+        mid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "❓ Xomashyoni o'chirishni tasdiqlaysizmi?",
         reply_markup=admin_confirm_delete_kb("material", mid),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("confirm_del:material:"))
 async def cb_mat_del_confirm(callback: CallbackQuery):
     try:
-        parts = callback.data.split(":", 2)
-        mid = int(parts[2])
+        mid = int(callback.data.split(":", 2)[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -321,9 +325,11 @@ async def cb_list_sizes(callback: CallbackQuery):
     b.button(text="➕ Yangi razmer", callback_data="sizeadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
-    text = "📐 <b>O'lchamlar (Razmerlar):</b>\n\n" + ("\n".join(f"• {s.name_uz} (ID: #{s.id})" for s in rows) if rows else "*(Razmerlar mavjud emas)*")
-    await callback.message.edit_text(text, reply_markup=b.as_markup())
-    await callback.answer()
+    text = (
+        "📐 <b>O'lchamlar (Razmerlar):</b>\n\n"
+        + ("\n".join(f"• {s.name_uz} (ID: #{s.id})" for s in rows) if rows else "*(Razmerlar mavjud emas)*")
+    )
+    await safe_edit(callback, text, reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("sizeview:"))
@@ -332,8 +338,7 @@ async def cb_size_view(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, sid_str = callback.data.split(":")
-        sid = int(sid_str)
+        sid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -348,12 +353,11 @@ async def cb_size_view(callback: CallbackQuery):
     b.button(text="🗑 Razmerni o'chirish", callback_data=f"sizedel:{s.id}")
     b.button(text="⬅️ Razmerlar", callback_data="cat_admin:sizes")
     b.adjust(1)
-    await callback.message.edit_text(
-        f"📐 <b>O'lcham:</b> {s.name_uz} (ID: #{s.id})\n\n"
-        f"Quyidagi harakatlardan birini tanlang:",
+    await safe_edit(
+        callback,
+        f"📐 <b>O'lcham:</b> {s.name_uz} (ID: #{s.id})\n\nQuyidagi harakatlardan birini tanlang:",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("sizedit:"))
@@ -362,8 +366,7 @@ async def cb_size_edit_prompt(callback: CallbackQuery, state: FSMContext):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, sid_str = callback.data.split(":")
-        sid = int(sid_str)
+        sid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -374,11 +377,11 @@ async def cb_size_edit_prompt(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="edit_size", edit_size_id=sid)
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         f"✏️ <b>«{s.name_uz}»</b> razmerining yangi nomini kiriting:",
         reply_markup=admin_back_kb("cat_admin:sizes"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data == "sizeadd")
@@ -388,11 +391,11 @@ async def cb_size_add(callback: CallbackQuery, state: FSMContext):
         return
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_size")
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "✏️ Yangi razmer nomini kiriting (masalan: 100x150):",
         reply_markup=admin_back_kb("cat_admin:sizes"),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("sizedel:"))
@@ -401,23 +404,21 @@ async def cb_size_del_prompt(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, sid_str = callback.data.split(":")
-        sid = int(sid_str)
+        sid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "❓ Razmerni o'chirishni tasdiqlaysizmi?",
         reply_markup=admin_confirm_delete_kb("size", sid),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("confirm_del:size:"))
 async def cb_size_del_confirm(callback: CallbackQuery):
     try:
-        parts = callback.data.split(":", 2)
-        sid = int(parts[2])
+        sid = int(callback.data.split(":", 2)[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -453,16 +454,15 @@ async def cb_list_products(callback: CallbackQuery):
     b = InlineKeyboardBuilder()
     for p, c in rows:
         active = "✅" if p.is_active else "❌"
-        b.button(text=f"{active} #{p.id} {p.caption_uz or ''[:30]}", callback_data=f"prodopen:{p.id}")
+        b.button(text=f"{active} #{p.id} {(p.caption_uz or '')[:30]}", callback_data=f"prodopen:{p.id}")
     b.button(text="➕ Mahsulot (rasm) qo'shish", callback_data="prodadd")
     b.button(text="⬅️ Katalog", callback_data="admin:catalog")
     b.adjust(1)
     text = "🖼 Mahsulotlar:\n\n" + "\n".join(
         f"• #{p.id} | {p.caption_uz or '-'} | cat={c.name_uz if c else '-'} | {'✅' if p.is_active else '❌'}"
         for p, c in rows
-    ) or "(bo'sh)"
-    await callback.message.edit_text(text, reply_markup=b.as_markup())
-    await callback.answer()
+    ) if rows else "🖼 Mahsulotlar:\n\n(bo'sh)"
+    await safe_edit(callback, text, reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("prodopen:"))
@@ -472,8 +472,7 @@ async def cb_prod_open(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -483,9 +482,10 @@ async def cb_prod_open(callback: CallbackQuery):
             await callback.answer("Topilmadi.", show_alert=True)
             return
         c = await session.get(Category, p.category_id) if p.category_id else None
+        caption_uz_display = p.caption_uz or "(bo'sh)"
         text = (
             f"🖼 <b>Mahsulot #{p.id}</b>\n\n"
-            f"📝 Nomi (caption uz): {p.caption_uz or '(bo\'sh)'}\n"
+            f"📝 Nomi (caption uz): {caption_uz_display}\n"
             f"📝 Caption (ru): {p.caption_ru or '-'}\n"
             f"📝 Caption (en): {p.caption_en or '-'}\n"
             f"🏷 Kategoriya: {c.name_uz if c else '-'}\n"
@@ -501,8 +501,7 @@ async def cb_prod_open(callback: CallbackQuery):
     b.button(text="🗑 O'chirish", callback_data=f"proddel:{pid}")
     b.button(text="⬅️ Mahsulotlar", callback_data="cat_admin:products")
     b.adjust(1, 2, 1, 1, 1)
-    await callback.message.edit_text(text, reply_markup=b.as_markup())
-    await callback.answer()
+    await safe_edit(callback, text, reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("prodeditcap:"))
@@ -511,8 +510,7 @@ async def cb_prod_edit_caption_start(callback: CallbackQuery, state: FSMContext)
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -524,13 +522,13 @@ async def cb_prod_edit_caption_start(callback: CallbackQuery, state: FSMContext)
         curr_cap = p.caption_uz or "(bo'sh)"
     await state.set_state(AdminFlow.waiting_edit_caption)
     await state.update_data(edit_product_id=pid)
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         f"✏️ <b>Mahsulot #{pid} uchun yangi nom (caption) yuboring:</b>\n\n"
         f"Joriy nom: {curr_cap}\n\n"
         f"(Nomni o'chirish uchun '-' deb yuboring)",
         reply_markup=admin_back_kb(f"prodopen:{pid}"),
     )
-    await callback.answer()
 
 
 @router.message(AdminFlow.waiting_edit_caption)
@@ -557,6 +555,7 @@ async def cb_prod_edit_caption_save(message: Message, state: FSMContext):
     await message.answer(
         f"✅ <b>Mahsulot #{pid} nomi yangilandi!</b>",
         reply_markup=b.as_markup(),
+        parse_mode="HTML",
     )
 
 
@@ -566,14 +565,14 @@ async def cb_prod_up(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
     async with async_session() as session:
         p = await session.get(Product, pid)
         if p is None:
+            await callback.answer()
             return
         p.order_index = (p.order_index or 0) - 1
         await session.commit()
@@ -586,14 +585,14 @@ async def cb_prod_down(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
     async with async_session() as session:
         p = await session.get(Product, pid)
         if p is None:
+            await callback.answer()
             return
         p.order_index = (p.order_index or 0) + 1
         await session.commit()
@@ -606,14 +605,14 @@ async def cb_prod_toggle(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
     async with async_session() as session:
         p = await session.get(Product, pid)
         if p is None:
+            await callback.answer()
             return
         p.is_active = not p.is_active
         await session.commit()
@@ -638,18 +637,17 @@ async def cb_prod_add(callback: CallbackQuery, state: FSMContext):
     b.adjust(1)
     await state.set_state(AdminFlow.waiting_product_category)
     await state.update_data(admin_action="add_product_step1")
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "🖼 Yangi mahsulotlar qo'shish. Avval kategoriyani tanlang:",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("prodcat:"), AdminFlow.waiting_product_category)
 async def cb_prod_pick_cat(callback: CallbackQuery, state: FSMContext):
     try:
-        _, cid_str = callback.data.split(":")
-        cid = int(cid_str)
+        cid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -662,14 +660,14 @@ async def cb_prod_pick_cat(callback: CallbackQuery, state: FSMContext):
     b.button(text="⬅️ Bekor qilish", callback_data="cat_admin:products")
     b.adjust(1)
 
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "📸 <b>Mahsulot rasmlarini yuboring:</b>\n\n"
         "Siz 1 ta yoki bir vaqtning o'zida bir nechta (10-20 ta) rasmlarni (albom ko'rinishida) yuborishingiz mumkin!\n"
         "Har bir rasm avtomatik mahsulot sifatida saqlanadi va keyinchalik nomini tahrirlashingiz mumkin.\n\n"
         "<i>Rasmlarni yuborib bo'lgach, pastdagi «✅ Yakunlash» tugmasini bosing.</i>",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.message(AdminFlow.waiting_product_photo, F.photo)
@@ -716,6 +714,7 @@ async def cb_prod_photo(message: Message, state: FSMContext):
         f"✅ <b>Rasm #{p.id} saqlandi!</b> (Jami qo'shildi: <b>{new_count}</b> ta)\n"
         f"Yana rasmlar yuborishingiz mumkin yoki yuborib bo'lgach «✅ Yakunlash»ni bosing.",
         reply_markup=b.as_markup(),
+        parse_mode="HTML",
     )
 
 
@@ -728,13 +727,13 @@ async def cb_prod_upload_done(callback: CallbackQuery, state: FSMContext):
     b = InlineKeyboardBuilder()
     b.button(text="🖼 Mahsulotlar ro'yxatiga o'tish", callback_data="cat_admin:products")
     b.adjust(1)
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         f"🎉 <b>Muvaffaqiyatli yakunlandi!</b>\n\n"
         f"Jami <b>{cnt}</b> ta yangi mahsulot bazaga qo'shildi.\n"
         f"Katalog ro'yxatidan ularga kirib, nomlarini (caption) istalgancha tahrirlashingiz mumkin.",
         reply_markup=b.as_markup(),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("proddel:"))
@@ -743,23 +742,21 @@ async def cb_prod_del_prompt(callback: CallbackQuery):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        pid = int(callback.data.split(":")[1])
     except (ValueError, IndexError):
         await callback.answer()
         return
-    await callback.message.edit_text(
+    await safe_edit(
+        callback,
         "❓ Mahsulotni o'chirishni tasdiqlaysizmi?",
         reply_markup=admin_confirm_delete_kb("product", pid),
     )
-    await callback.answer()
 
 
 @router.callback_query(F.data.startswith("confirm_del:product:"))
 async def cb_prod_del_confirm(callback: CallbackQuery):
     try:
-        parts = callback.data.split(":", 2)
-        pid = int(parts[2])
+        pid = int(callback.data.split(":", 2)[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -806,11 +803,7 @@ async def cb_list_prices(callback: CallbackQuery):
     for pm, m, s in rows:
         price_str = f"{pm.price:,}".replace(",", " ")
         text_lines.append(f"• {m.name_uz} / {s.name_uz} = {price_str} so'm")
-    await callback.message.edit_text(
-        "\n".join(text_lines),
-        reply_markup=b.as_markup(),
-    )
-    await callback.answer()
+    await safe_edit(callback, "\n".join(text_lines), reply_markup=b.as_markup())
 
 
 @router.callback_query(F.data.startswith("priceedit:"))
@@ -819,18 +812,22 @@ async def cb_price_edit(callback: CallbackQuery, state: FSMContext):
         await callback.answer("Ruxsat yo'q.", show_alert=True)
         return
     try:
-        _, mid_str, sid_str = callback.data.split(":")
-        mid, sid = int(mid_str), int(sid_str)
+        parts = callback.data.split(":")
+        mid, sid = int(parts[1]), int(parts[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
     await state.set_state(AdminFlow.waiting_price_input)
     await state.update_data(price_mid=mid, price_sid=sid)
-    await callback.message.answer(
-        f"✏️ Yangi narxni kiriting (faqat raqam, so'm):\nmaterial_id={mid}, size_id={sid}",
-        reply_markup=admin_back_kb("cat_admin:prices"),
-    )
-    await callback.answer()
+    try:
+        await callback.message.answer(
+            f"✏️ Yangi narxni kiriting (faqat raqam, so'm):\nmaterial_id={mid}, size_id={sid}",
+            reply_markup=admin_back_kb("cat_admin:prices"),
+            parse_mode="HTML",
+        )
+        await callback.answer()
+    except Exception:
+        pass
 
 
 @router.message(AdminFlow.waiting_price_input)
@@ -855,6 +852,7 @@ async def cb_price_set(message: Message, state: FSMContext):
     await message.answer(
         f"✅ Narx yangilandi: {price_str} so'm",
         reply_markup=admin_back_kb("cat_admin:prices"),
+        parse_mode="HTML",
     )
 
 
@@ -873,40 +871,64 @@ async def admin_generic_name_input(message: Message, state: FSMContext):
         if action == "add_category":
             session.add(Category(name_uz=text))
             await session.commit()
-            await message.answer("✅ Yangi kategoriya muvaffaqiyatli qo'shildi.", reply_markup=admin_back_kb("cat_admin:categories"))
+            await message.answer(
+                "✅ Yangi kategoriya muvaffaqiyatli qo'shildi.",
+                reply_markup=admin_back_kb("cat_admin:categories"),
+                parse_mode="HTML",
+            )
         elif action == "edit_category":
             cid = data.get("edit_category_id")
             c = await session.get(Category, cid)
             if c:
                 c.name_uz = text
                 await session.commit()
-                await message.answer(f"✅ Kategoriya nomi «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:categories"))
+                await message.answer(
+                    f"✅ Kategoriya nomi <b>«{text}»</b> deb o'zgartirildi.",
+                    reply_markup=admin_back_kb("cat_admin:categories"),
+                    parse_mode="HTML",
+                )
             else:
                 await message.answer("Kategoriya topilmadi.", reply_markup=admin_back_kb("cat_admin:categories"))
         elif action == "add_material":
             session.add(Material(name_uz=text))
             await session.commit()
-            await message.answer("✅ Yangi xomashyo qo'shildi.", reply_markup=admin_back_kb("cat_admin:materials"))
+            await message.answer(
+                "✅ Yangi xomashyo qo'shildi.",
+                reply_markup=admin_back_kb("cat_admin:materials"),
+                parse_mode="HTML",
+            )
         elif action == "edit_material":
             mid = data.get("edit_material_id")
             m = await session.get(Material, mid)
             if m:
                 m.name_uz = text
                 await session.commit()
-                await message.answer(f"✅ Xomashyo nomi «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:materials"))
+                await message.answer(
+                    f"✅ Xomashyo nomi <b>«{text}»</b> deb o'zgartirildi.",
+                    reply_markup=admin_back_kb("cat_admin:materials"),
+                    parse_mode="HTML",
+                )
             else:
                 await message.answer("Xomashyo topilmadi.", reply_markup=admin_back_kb("cat_admin:materials"))
         elif action == "add_size":
             session.add(Size(name_uz=text))
             await session.commit()
-            await message.answer("✅ Yangi razmer qo'shildi.", reply_markup=admin_back_kb("cat_admin:sizes"))
+            await message.answer(
+                "✅ Yangi razmer qo'shildi.",
+                reply_markup=admin_back_kb("cat_admin:sizes"),
+                parse_mode="HTML",
+            )
         elif action == "edit_size":
             sid = data.get("edit_size_id")
             sz = await session.get(Size, sid)
             if sz:
                 sz.name_uz = text
                 await session.commit()
-                await message.answer(f"✅ Razmer «{text}» deb o'zgartirildi.", reply_markup=admin_back_kb("cat_admin:sizes"))
+                await message.answer(
+                    f"✅ Razmer <b>«{text}»</b> deb o'zgartirildi.",
+                    reply_markup=admin_back_kb("cat_admin:sizes"),
+                    parse_mode="HTML",
+                )
             else:
                 await message.answer("Razmer topilmadi.", reply_markup=admin_back_kb("cat_admin:sizes"))
         else:
