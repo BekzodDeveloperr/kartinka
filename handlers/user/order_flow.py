@@ -128,7 +128,7 @@ async def start_category_selection_message(message: Message, state: FSMContext):
 from keyboards.user_kb import category_kb  # noqa: E402
 
 
-@router.callback_query(F.data.startswith("cat:"), OrderFlow.choosing_category)
+@router.callback_query(F.data.startswith("cat:"))
 async def cb_pick_category(callback: CallbackQuery, state: FSMContext):
     if callback.data == "cat:restart":
         await start_category_selection(callback, state)
@@ -183,7 +183,7 @@ async def start_material_selection(callback: CallbackQuery, state: FSMContext, p
         pass
 
 
-@router.callback_query(F.data.startswith("mat:"), OrderFlow.choosing_material)
+@router.callback_query(F.data.startswith("mat:"))
 async def cb_pick_material(callback: CallbackQuery, state: FSMContext):
     try:
         _, mid_str = callback.data.split(":")
@@ -215,10 +215,13 @@ async def cb_pick_material(callback: CallbackQuery, state: FSMContext):
     ]
     kb = sizes_kb(sizes_loc, lang)
     await edit_or_send_text(callback, t(lang, "pick_size"), reply_markup=kb)
-    await callback.answer()
+    try:
+        await callback.answer()
+    except Exception:
+        pass
 
 
-@router.callback_query(F.data == "back:material", OrderFlow.choosing_size)
+@router.callback_query(F.data == "back:material")
 async def cb_back_to_material(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
     product_id = data.get("current_product_id")
@@ -259,7 +262,7 @@ async def estimate_custom_size_price(material_id: int, custom_text: str, session
     return 150000
 
 
-@router.callback_query(F.data.startswith("size:"), OrderFlow.choosing_size)
+@router.callback_query(F.data.startswith("size:"))
 async def cb_pick_size(callback: CallbackQuery, state: FSMContext):
     parts = callback.data.split(":")
     if len(parts) < 2:
