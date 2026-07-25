@@ -158,8 +158,8 @@ async def cb_cat_del_prompt(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("confirm_del:category:"))
 async def cb_cat_del_confirm(callback: CallbackQuery):
     try:
-        _, _, _, cid_str = callback.data.split(":")
-        cid = int(cid_str)
+        parts = callback.data.split(":", 2)
+        cid = int(parts[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -287,8 +287,8 @@ async def cb_mat_del_prompt(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("confirm_del:material:"))
 async def cb_mat_del_confirm(callback: CallbackQuery):
     try:
-        _, _, _, mid_str = callback.data.split(":")
-        mid = int(mid_str)
+        parts = callback.data.split(":", 2)
+        mid = int(parts[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -416,8 +416,8 @@ async def cb_size_del_prompt(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("confirm_del:size:"))
 async def cb_size_del_confirm(callback: CallbackQuery):
     try:
-        _, _, _, sid_str = callback.data.split(":")
-        sid = int(sid_str)
+        parts = callback.data.split(":", 2)
+        sid = int(parts[2])
     except (ValueError, IndexError):
         await callback.answer()
         return
@@ -758,8 +758,8 @@ async def cb_prod_del_prompt(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("confirm_del:product:"))
 async def cb_prod_del_confirm(callback: CallbackQuery):
     try:
-        _, _, _, pid_str = callback.data.split(":")
-        pid = int(pid_str)
+        parts = callback.data.split(":", 2)
+        pid = int(parts[2])
     except (ValueError, IndexError):
         await callback.answer()
         return

@@ -54,23 +54,35 @@ router = Router()
 
 
 async def edit_or_send_text(callback: CallbackQuery, text: str, reply_markup=None):
-    """Safely edit a message or send text message if previous message was deleted or a photo."""
+    """Safely edit a message or send a new text message if editing fails for any reason."""
     bot = callback.bot
     chat_id = callback.from_user.id
-    if not callback.message:
-        await bot.send_message(chat_id, text, reply_markup=reply_markup)
+    msg = callback.message
+
+    # If no message object, just send fresh
+    if not msg:
+        await bot.send_message(chat_id, text, reply_markup=reply_markup, parse_mode="HTML")
         return
-    if callback.message.photo:
+
+    # If it's a photo message (e.g., media group), delete it and send fresh
+    if msg.photo or getattr(msg, "media_group_id", None):
         try:
-            await callback.message.delete()
+            await msg.delete()
         except Exception:
             pass
-        await bot.send_message(chat_id, text, reply_markup=reply_markup)
-    else:
+        await bot.send_message(chat_id, text, reply_markup=reply_markup, parse_mode="HTML")
+        return
+
+    # Try editing in-place
+    try:
+        await msg.edit_text(text, reply_markup=reply_markup, parse_mode="HTML")
+    except Exception:
+        # Editing failed (message deleted, too old, etc.) — send fresh
         try:
-            await callback.message.edit_text(text, reply_markup=reply_markup)
+            await bot.send_message(chat_id, text, reply_markup=reply_markup, parse_mode="HTML")
         except Exception:
-            await bot.send_message(chat_id, text, reply_markup=reply_markup)
+            pass
+
 
 
 # ---------------------------------------------------------------------------

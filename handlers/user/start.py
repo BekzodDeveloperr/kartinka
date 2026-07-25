@@ -110,6 +110,8 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
                 reply_markup=hide_reply_kb(),
             )
             return
+        # Already registered -> update tag
+        await update_user_tag(session, tg_user.id, "start_bosdi")
 
         # Already registered -> directly start category selection
         from handlers.user.order_flow import start_category_selection_message
@@ -280,7 +282,7 @@ async def cb_set_lang(callback: CallbackQuery, state: FSMContext):
             )
         ).scalar_one_or_none()
 
-    if current_state == OrderFlow.waiting_language or not (user and user.full_name and user.phone and user.address):
+    if current_state == OrderFlow.waiting_language or not (user and user.full_name and user.phone):
         await state.set_state(OrderFlow.waiting_name)
         async with async_session() as session:
             await update_user_state(session, callback.from_user.id, "OrderFlow:waiting_name")
