@@ -102,7 +102,7 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
         lang = user.language or "uz"
 
         # If profile is incomplete -> start registration flow
-        if not (user.full_name and user.phone and user.address):
+        if not (user.full_name and user.phone):
             await state.set_state(OrderFlow.waiting_name)
             await update_user_state(session, tg_user.id, "OrderFlow:waiting_name")
             await message.answer(

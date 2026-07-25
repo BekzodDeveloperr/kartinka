@@ -54,15 +54,21 @@ router = Router()
 
 
 async def edit_or_send_text(callback: CallbackQuery, text: str, reply_markup=None):
-    """Safely edit a message or delete photo & send text message if previous message was a photo."""
-    if callback.message and callback.message.photo:
+    """Safely edit a message or send text message if previous message was deleted or a photo."""
+    if not callback.message:
+        await callback.bot.send_message(callback.from_user.id, text, reply_markup=reply_markup)
+        return
+    if callback.message.photo:
         try:
             await callback.message.delete()
         except Exception:
             pass
         await callback.message.answer(text, reply_markup=reply_markup)
     else:
-        await callback.message.edit_text(text, reply_markup=reply_markup)
+        try:
+            await callback.message.edit_text(text, reply_markup=reply_markup)
+        except Exception:
+            await callback.message.answer(text, reply_markup=reply_markup)
 
 
 # ---------------------------------------------------------------------------

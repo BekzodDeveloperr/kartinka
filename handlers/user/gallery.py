@@ -129,11 +129,11 @@ async def cb_gallery_page(callback: CallbackQuery, state: FSMContext):
 
 @router.callback_query(F.data.startswith("gsel:"))
 async def cb_gallery_select(callback: CallbackQuery, state: FSMContext):
+    await callback.answer()
     try:
         _, pid_str = callback.data.split(":")
         product_id = int(pid_str)
     except (ValueError, IndexError):
-        await callback.answer()
         return
     await state.update_data(current_product_id=product_id)
 
